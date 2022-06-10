@@ -32,4 +32,5 @@ git push origin master
 Workspaces
 
 terraform workspace list
+
 terraform workspace create 

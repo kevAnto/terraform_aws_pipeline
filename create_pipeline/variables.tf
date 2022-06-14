@@ -25,7 +25,7 @@ variable "python_project_repository_branch" {
 
 variable "artifacts_bucket_name" {
   description = "S3 Bucket for storing artifacts"
-  default     = "emeka18-cicd-artifacts-bucket"
+  default     = "kev-cicd-artifacts-bucket"
 }
 
 variable "container_port" {

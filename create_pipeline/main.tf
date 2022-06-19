@@ -17,7 +17,7 @@ resource "aws_codecommit_repository" "code_repo" {
   description     = "This is a Sample python App Repository"
 }
 
-resource "null_resource" "image" {
+resource "null_resource" "provisioner" {
 
   provisioner "local-exec" {
     command     = <<EOF
